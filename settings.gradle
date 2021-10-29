@@ -1,0 +1,2 @@
+rootProject.name = "Malaysian Medicinal Plants and Herbs Database System"
+include ':app'

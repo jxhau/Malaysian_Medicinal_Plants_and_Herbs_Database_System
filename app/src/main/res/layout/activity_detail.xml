@@ -1,0 +1,272 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Detail">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="55dp"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/viewImageID"
+            android:layout_width="match_parent"
+            android:layout_height="237dp"
+            android:layout_marginTop="30dp"
+            app:srcCompat="@android:drawable/ic_menu_gallery" />
+
+        <TextView
+            android:id="@+id/textViewOnly"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:text="Name"
+            android:textStyle="bold"
+            android:textSize="20sp" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/NameID"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="textMultiLine"
+                android:textSize="18sp"
+                android:textColor="#009688"
+                android:hint="N/A"/>
+        </RelativeLayout>
+
+        <TextView
+            android:id="@+id/textViewOnly3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:text="Definition"
+            android:textStyle="bold"
+            android:textSize="20sp" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/DefinitionID"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="textMultiLine"
+                android:textSize="18sp"
+                android:textColor="#009688"
+                android:hint="N/A"/>
+
+        </RelativeLayout>
+
+        <TextView
+            android:id="@+id/textViewOnly4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:text="Vernacular"
+            android:textStyle="bold"
+            android:textSize="20sp" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/VerID"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="textMultiLine"
+                android:textSize="18sp"
+                android:textColor="#009688"
+                android:hint="N/A"/>
+
+        </RelativeLayout>
+
+        <TextView
+            android:id="@+id/textViewOnly5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:text="Color"
+            android:textStyle="bold"
+            android:textSize="20sp" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/ColorID"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="textMultiLine"
+                android:textSize="18sp"
+                android:textColor="#009688"
+                android:hint="N/A"/>
+
+        </RelativeLayout>
+
+        <TextView
+            android:id="@+id/textViewOnly6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:text="Odour"
+            android:textStyle="bold"
+            android:textSize="20sp" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/OdourID"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="textMultiLine"
+                android:textSize="18sp"
+                android:textColor="#009688"
+                android:hint="N/A"/>
+
+        </RelativeLayout>
+
+        <TextView
+            android:id="@+id/textViewOnly7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:text="Taste"
+            android:textStyle="bold"
+            android:textSize="20sp" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/TasteID"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="textMultiLine"
+                android:textSize="18sp"
+                android:textColor="#009688"
+                android:hint="N/A"/>
+
+        </RelativeLayout>
+
+        <TextView
+            android:id="@+id/textViewOnly8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:text="Morphology"
+            android:textStyle="bold"
+            android:textSize="20sp" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/MorphID"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="textMultiLine"
+                android:textSize="18sp"
+                android:textColor="#009688"
+                android:hint="N/A"/>
+
+        </RelativeLayout>
+
+        <TextView
+            android:id="@+id/textViewOnly12"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:text="Medicinal"
+            android:textStyle="bold"
+            android:textSize="20sp" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/MedicID"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="textMultiLine"
+                android:textSize="18sp"
+                android:textColor="#009688"
+                android:hint="N/A"/>
+        </RelativeLayout>
+
+        <TextView
+            android:id="@+id/textViewOnly10"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:text="Safety"
+            android:textStyle="bold"
+            android:textSize="20sp" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/SafetyID"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="textMultiLine"
+                android:textSize="18sp"
+                android:textColor="#009688"
+                android:hint="N/A"/>
+
+        </RelativeLayout>
+
+        <TextView
+            android:id="@+id/textViewOnly11"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:text="Storage"
+            android:textStyle="bold"
+            android:textSize="20sp" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/StorageID"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="30dp"
+                android:ems="10"
+                android:inputType="textMultiLine"
+                android:textSize="18sp"
+                android:textColor="#009688"
+                android:hint="N/A"/>
+
+        </RelativeLayout>
+
+    </LinearLayout>
+</ScrollView>

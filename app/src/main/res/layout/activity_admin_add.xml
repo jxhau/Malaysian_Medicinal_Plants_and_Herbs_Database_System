@@ -1,0 +1,271 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/PDifinitionID"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AdminAdd">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="55dp"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/ImageID"
+            android:layout_width="match_parent"
+            android:layout_height="237dp"
+            android:layout_marginTop="30dp"
+            app:srcCompat="@android:drawable/ic_menu_gallery"
+            android:onClick="selectImage"/>
+
+        <TextView
+            android:id="@+id/textViewOnly"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:text="Name"
+            android:textStyle="bold"
+            android:textSize="18sp" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <EditText
+                android:id="@+id/PNameID"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="Name"
+                android:inputType="textMultiLine" />
+
+        </RelativeLayout>
+
+        <TextView
+            android:id="@+id/textViewOnly3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:text="Definition"
+            android:textStyle="bold"
+            android:textSize="18sp" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <EditText
+                android:id="@+id/PDefinitionID"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="Definition"
+                android:inputType="textMultiLine" />
+
+        </RelativeLayout>
+
+        <TextView
+            android:id="@+id/textViewOnly4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:text="Vernacular"
+            android:textStyle="bold"
+            android:textSize="18sp" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <EditText
+                android:id="@+id/PVerID"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="Vernacular"
+                android:inputType="textMultiLine" />
+
+        </RelativeLayout>
+
+        <TextView
+            android:id="@+id/textViewOnly5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:text="Color"
+            android:textStyle="bold"
+            android:textSize="18sp" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <EditText
+                android:id="@+id/PColorID"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="Color"
+                android:inputType="textMultiLine" />
+
+        </RelativeLayout>
+
+        <TextView
+            android:id="@+id/textViewOnly6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:text="Odour"
+            android:textStyle="bold"
+            android:textSize="18sp" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <EditText
+                android:id="@+id/POdourID"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="Odour"
+                android:inputType="textMultiLine" />
+
+        </RelativeLayout>
+
+        <TextView
+            android:id="@+id/textViewOnly7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:text="Taste"
+            android:textStyle="bold"
+            android:textSize="18sp" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <EditText
+                android:id="@+id/PTasteID"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="Taste"
+                android:inputType="textMultiLine" />
+
+        </RelativeLayout>
+
+        <TextView
+            android:id="@+id/textViewOnly8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:text="Morphology"
+            android:textStyle="bold"
+            android:textSize="18sp" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <EditText
+                android:id="@+id/PMorphID"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="Morphology"
+                android:inputType="textMultiLine" />
+
+        </RelativeLayout>
+
+        <TextView
+            android:id="@+id/textViewOnly12"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:text="Medicinal"
+            android:textStyle="bold"
+            android:textSize="18sp" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <EditText
+                android:id="@+id/PMedicID"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="Medicinal"
+                android:inputType="textMultiLine" />
+        </RelativeLayout>
+
+        <TextView
+            android:id="@+id/textViewOnly10"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:text="Safety"
+            android:textStyle="bold"
+            android:textSize="18sp" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <EditText
+                android:id="@+id/PSafetyID"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="Safety"
+                android:inputType="textMultiLine" />
+
+        </RelativeLayout>
+
+        <TextView
+            android:id="@+id/textViewOnly11"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:text="Storage"
+            android:textStyle="bold"
+            android:textSize="18sp" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <EditText
+                android:id="@+id/PStorageID"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="30dp"
+                android:ems="10"
+                android:hint="Storage"
+                android:inputType="textMultiLine" />
+
+        </RelativeLayout>
+
+        <Button
+            android:id="@+id/SavePlantID"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_above="@id/textViewOnly3"
+            android:layout_marginTop="20dp"
+            android:text="Save to Plant" />
+
+        <Button
+            android:id="@+id/SaveHerbsID"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="30dp"
+            android:text="SAVE TO HERBS" />
+
+    </LinearLayout>
+</ScrollView>
