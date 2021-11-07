@@ -29,7 +29,7 @@
                 android:layout_height="wrap_content"
                 android:layout_alignParentTop="true"
                 android:lineSpacingExtra="8sp"
-                android:text="Malaysian Medical Plants and Herbs Database System"
+                android:text="Malaysian Medicinal Plants and Herbs Database System"
                 android:textAlignment="center"
                 android:textAllCaps="false"
                 android:textColor="#009688"
